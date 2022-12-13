@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter&family=Karla&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>unitConverter</title>
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="convDiv">
+        <h2>Metric/Imperial Unit Conversion</h2>
+        <div class="">
+          <input id="inp-id" type ="number">
+        </div>
+        <button onclick="conversion()">Convert</button>
+      </div>
+      <div class="condiv2">
+
+      <div class="displayDiv" id="disp1">
+        <h3>Length (Meter/Feet)</h3>
+        <h5 id="lengthId">output is displayed here</h5>
+      </div>
+      <div class="displayDiv" id="disp2">
+        <h3>Volume (Liters/Gallons)</h3>
+        <h5 id="volumeId">output is displayed here</h5>
+      </div>
+      <div class="displayDiv" id="disp3">
+        <h3>Mass (Kilograms/Pounds)</h3>
+        <h5 id="massId">output is displayed here</h5>
+      </div>
+    </div>
+    </div>
+   <script src="index.js"></script>
+  </body>
+</html>
